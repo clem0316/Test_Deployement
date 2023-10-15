@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@100;500&family=Orbitron:wght@500&family=Playfair:wght@600&family=Six+Caps&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Six Caps", sans-serif;
+  letter-spacing: 0.2em;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+nav {
+  color: rgb(244, 245, 235);
+}
+
+nav li {
+  transition: 0.2s;
+}
+
+nav li:hover {
+  transform: scale(1.2);
+}
+
+nav li:active {
+  transform: scale(0.9);
+}
+
+button {
+  border: 1.5px solid white;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+.cardsContent {
+  background-color: rgb(254, 240, 210);
+  padding-top: 8px;
+}
+
+.pannel {
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 4px 20px 15px 20px;
+  /* background-color: rgba(192, 201, 249, 0.684); */
+}
+
+.orderButtons {
+  border: 2px solid;
+  border-radius: 20px;
+  padding: 5px 0 5px 0;
+  margin: 0 150px 0 150px;
+}
+
+.callButtons {
+  padding-top: 5px;
+}
+
+.theCards {
+  border: 2px solid;
+  border-radius: 20px;
+  margin: 8px;
+  background-color: rgb(243, 218, 207);
+  /* background-image: linear-gradient(
+    to right top,
+    #f0e5b3,
+    #f0e0b0,
+    #f9c19c,
+    #f0d7ac,
+    #f0d3aa
+  );
+  background-blend-mode: multiply; */
+}
+
+li span {
+  font-family: "Lato";
+  color: rgb(8, 54, 72);
+  font-size: 0.7rem;
+  letter-spacing: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.theName {
+  font-family: "Six Caps";
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0 5px 0 5px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+ul img {
+  border: 1.5px solid black;
+  border-radius: 20px;
+}
+
+.deleteButton {
+  font-family: "Lato";
+  font-size: 1.2em;
+  margin: 5px;
+}
+
+.deleteButton:hover {
+  background-color: red;
+  transform: scale(1.1);
+}
+
+.deleteButton:active {
+  transform: scale(0.9);
+}
+
+.introContainer {
+  background-color: rgb(254, 240, 210);
+}
+
+.imageIntro img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  display: flex;
+}
+
+.introText {
+  font-family: "Lato";
+  letter-spacing: 0;
+  padding: 15px 30px 5px 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
